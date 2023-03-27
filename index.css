@@ -1,0 +1,503 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* ------------------------------------------section1------------------------------------------ */
+.section1{
+  width: 100%;
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+}
+nav a, nav li{
+  text-decoration: none;
+  padding: 30px 15px;
+  color: black;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+
+/* ------------------------------------------section2------------------------------------------ */ 
+
+.section2{
+  display: flex;
+  background-image: url(acc.jpg);
+  background-size: cover;
+  height: 550px;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotobakeli {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 100px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.fotobakeli img{
+    width: 150px;
+}
+.divsection2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60px;
+    background-color: dimgray;
+    color: white;
+}
+
+.divp{
+  color: white;
+  width: 70%;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+/* ------------------------------------------section3----------------------------------------- */
+.section3{
+  width: 100%;
+}
+form{
+  margin-bottom: 5em;
+}
+.image{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.clasimg{
+  width: 60px;
+  border: 2px solid #379E8B;
+  border-radius: 100%;
+  padding: 3em 3em;
+  margin: auto;
+}
+.prodemark{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* ------------------------------------------section3 partie 2----------------------------------------- */
+
+.section3_partie2{
+  background: #E5E4E2;
+  width: 100%;
+  height: 250px;
+  font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 2em;
+}
+.liste ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+/* ------------------------------------------section4----------------------------------------- */
+.section4{
+  width: 100%;
+}
+.images1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.imagewordpress, .imagehtml-css, .imagecanva, .imagejava-script{
+  display: flex;
+  align-items: center;
+  width: 25%;
+  height: 300px;
+}
+.imagejava-script img{
+  width: 200px;
+  height: 150px;
+}
+
+.imagewordpress{
+  background-color: #91A3B0;
+}
+.imagehtml-css{
+  background-color: #6699CC;
+}
+.imagecanva{
+  background-color: #343434;
+}
+.imagejava-script{
+  background-color: #36454F;
+}
+
+.images2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.imagejava, .imageinkscape, .imageAe, .imagepython{
+  display: flex;
+  align-items: center;
+  width: 25%;
+  height: 300px;
+}
+
+.imageinkscape img{
+  width: 200px;
+  height: 150px;
+}
+
+.imagejava{
+  background-color: #483C32;
+}
+.imageinkscape{
+  background-color: #5D8AA8;
+}
+.imageAe{
+  background-color: #00416A;
+}
+.imagepython{
+  background-color: #CCCCFF;
+}
+
+.section4 img{
+  width: 200px;
+  margin: auto;
+}
+
+
+/* ------------------------------------------section5----------------------------------------- */
+
+.section5 h1{
+  font-size: 30px;
+}
+
+.section5 p{
+  text-align: center;
+}
+
+.partie2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 5em;
+  margin-right: 5em;
+  
+}
+
+.info{
+  width: 500px;
+}
+.ligne{
+  height: 10px;
+  width: 500px;
+  background: #BEBFC5;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 3em;
+} 
+.ligne::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #91A3B0;
+  border-radius: 10px;
+}
+.pratique::before{
+  width: 100%;
+}
+.opportunités::before{
+  width: 90%;
+}
+.bakelites::before{
+  width: 80%;
+}
+.nada::before{
+  width: 70%;
+}
+
+
+/* ------------------------------------------section6----------------------------------------- */
+
+
+.section6{
+  background-color: #7BAFD4;
+}
+.section6 h1, .section6 p{
+  text-align: center;
+  color: white;
+}
+.images{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.imageicon1, .imageicon2, .imageicon3, .imageicon4{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 350px;
+  margin-left: 4em;
+}
+.imageicon1 img, .imageicon2 img, .imageicon3 img, .imageicon4 img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 350px;
+  margin-left: 2em;
+}
+
+.imageicon1{
+  background-color: #A0785A;
+}
+.imageicon2{
+  background-color: #FF6FFF;
+}
+.imageicon3{
+  background-color: #B9D9EB;
+}
+.imageicon4{
+  background-color: #FF91AF;
+}
+.piedimage{
+  text-align: center;
+  background-color: white;
+}
+
+.images_pied{
+  padding: 5em 0em;
+}
+
+/* ------------------------------------------section7----------------------------------------- */
+.section7{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section7 img{
+  display: flex;
+  width: 100px;
+  padding-bottom: 5em;
+  padding-top: 5em;
+}
+.section7 p{
+  text-align: center;
+}
+.section7 h1{
+  padding-bottom: 5em;
+}
+
+
+
+/* ------------------------------------------section8----------------------------------------- */
+
+.section8{
+  background-color: #E5E4E2;
+}
+
+.section8 p{
+  font-weight: bold;
+}
+
+.section8 h3{
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 8em;
+}
+.divsection8{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2em;
+}
+h6{
+  text-align: center;
+  padding-bottom: 7em;
+}
+
+/* ------------------------------------------responsivité----------------------------------------- */
+
+@media screen and (max-width: 1000px){
+*{
+  margin: 0;
+  padding: 0;
+}
+  
+  /* ------------------------------------------section1------------------------------------------ */
+
+
+  nav ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav a, nav li{
+  font-size: 30px;
+}
+
+/* ------------------------------------------section2------------------------------------------ */ 
+
+.section2 h2, .section2 p{
+  font-size: 30px;
+}
+.h{
+  margin-bottom: 20px;
+}
+
+
+/* ------------------------------------------section3------------------------------------------ */ 
+
+.image{
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+  padding: 5em;
+}
+.clasimg{
+  width: 100px;
+  border: 2px solid #379E8B;
+  border-radius: 100%;
+  padding: 5em 5em;
+  margin: auto;
+}
+
+/* ------------------------------------------section3 partie 2----------------------------------------- */
+
+
+.section3_partie2{
+  width: 100%;
+  height: 600px;
+  font-size: 40px;
+}
+
+.liste ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ------------------------------------------section4----------------------------------------- */
+
+.images1{
+  display: flex;
+  flex-direction: column;
+}
+
+.imagewordpress, .imagehtml-css, .imagecanva, .imagejava-script{
+  width: 100%;
+  height: 600px;
+}
+
+.images2{
+  display: flex;
+  flex-direction: column;
+}
+
+.imagejava, .imageinkscape, .imageAe, .imagepython{
+  width: 100%;
+  height: 600px;
+}
+
+
+/* ------------------------------------------section5----------------------------------------- */
+
+.section5 h1{
+  font-size: 30px;
+}
+
+.section5 p{
+  text-align: center;
+}
+
+.partie2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.info{
+  width: 500px;
+  font-size: 30px;
+}
+.ligne{
+  height: 30px;
+  width: 450px;
+}
+
+
+/* ------------------------------------------section6----------------------------------------- */
+
+.images{
+  display: flex;
+  flex-direction: column;
+}
+.imageicon1, .imageicon2, .imageicon3, .imageicon4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  margin: auto;
+}
+.piedimage{
+  width: 100%;
+}
+
+/* ------------------------------------------section7----------------------------------------- */
+
+.section7 img{
+  width: 200px;
+}
+
+/* ------------------------------------------section8----------------------------------------- */
+
+.section8{
+  text-align: center;
+}
+.section8 h3{
+  font-size: 35px;
+  padding-bottom: 4em;
+}
+.section8 h6{
+  font-size: 25px;
+  padding-bottom: 4em;
+}
+
+.divsection8{
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 1em;
+}
+
+}
